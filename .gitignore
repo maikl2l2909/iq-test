@@ -1,0 +1,59 @@
+# Env
+/.env
+
+# Composer
+/vendor
+composer.phar
+
+# JS
+node_modules
+spa/npm-debug.log
+spa/yarn-error.log
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+
+# Tests
+tests/codeception/*/_support/_generated/*
+
+# Safe public upload ignores
+.env
+.env.*
+!.env.example
+!.env.dist
+!.env.docker.dist
+vendor/
+node_modules/
+bower_components/
+npm-asset/
+runtime/
+storage/logs/*
+logs/
+*.log
+frontend/web/assets/
+backend/web/assets/
+api/web/assets/
+web/assets/
+public/assets/
+public/storage/
+bootstrap/cache/*.php
+.DS_Store
+Thumbs.db
+
