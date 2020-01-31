@@ -1,0 +1,265 @@
+a.btn {
+    padding: 10px 20px;
+}
+
+div.main, div.glob {
+    padding-right: 0px;
+}
+
+div.lastResults {
+    background-color: #fefefe;
+    font-size: x-small;
+}
+
+div.test span.pos {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    font-weight: normal;
+    font-size: small;
+    font-family: arial;
+}
+
+div.instructions span {
+    position: relative;
+    background-color: #a5a5a5e0;
+    padding: 10px 8px 10px;
+    margin-left: 28px;
+    display: inline-block;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: x-small;
+}
+
+div.instructions span:after {
+    height: 10px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    right: -40px;
+    top: -7.8px;
+    border: 9px solid transparent;
+    border-width: 25px 20px;
+    border-left-color: #a5a5a5e0;
+}
+
+div.start {
+    font-family: Baskerville;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: #fffcf1;
+    border-bottom: 1px solid #fcfcfc;
+    border: 1px solid #fcfcfc;
+    margin-bottom: 10px;
+}
+
+div.start img, div.inf img {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+div.start div.center {
+    margin-top: 20px;
+}
+
+div.start a.btn {
+    font-family: Arial;
+}
+
+div.start p, div.start li {
+    font-size: small;
+}
+
+div.test {
+    background-color: #fffcf1;
+    border-bottom: 1px solid #fcfcfc;
+    border: 1px solid #fcfcfc;
+    text-align: center;
+}
+
+div.test img {
+    height: auto;
+    width: auto;
+    max-width: 70px;
+}
+
+div.test div.prop {
+    padding-bottom: 25px;
+}
+
+div.test div.prop img {
+    width: auto;
+    max-width:240px;
+    max-height: 250px;
+}
+
+div.answers {
+    padding-bottom: 30px;
+    margin-bottom: 20px
+}
+
+div.answers div.ans {
+    display: inline-block
+}
+
+div.answers img {
+    max-height: 70px;
+    cursor: pointer;
+}
+
+span.letter {
+    font-size: x-small;
+}
+
+div.inf {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: #fffcf1;
+    border-bottom: 1px solid #fcfcfc;
+    border: 1px solid #fcfcfc;
+    margin-bottom: 10px;
+}
+
+div.inf label {
+    width: 150px;
+}
+
+div.inf input {
+    max-width: 230px;
+    width: 100%;
+}
+
+div.inf select {
+    max-width: 230px;
+    min-width: 100px;
+}
+
+div.inf p {
+    font-size: small;
+}
+
+div.inf label {
+    font-size: small
+}
+
+div.texts {
+    border-top: 1px solid #fafafa;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+div.texts p, div.texts h3, div.texts ul li {
+    font-size: x-small;
+}
+
+div.texts h3 {
+    margin-top: 40px;
+}
+
+div.stat h3 {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+div.stat {
+    padding: 5px;
+}
+
+@media (min-width:650px) {
+    div.test div.answers img {
+        max-width: 80px;
+        max-height: 70px;
+    }
+
+    div.test div.prop img {
+        max-width: 270px;
+    }
+}
+
+div.container.main {
+    /*padding-left: 20px;*/
+}
+
+@media (min-width:800px) {
+    div.test div.answers img {
+        max-width: 90px;
+        max-height: 80px;
+    }
+
+    div.test div.prop img {
+        max-width: 300px;
+    }
+}
+
+@media (min-width:980px) {
+    div.container.main {
+        margin-left: 35px;
+        margin-right: 35px;
+        /*padding-left: 30px;*/
+    }
+}
+
+@media (max-width:498px) {
+    div.start img {
+        width: 25px;
+        height: 25px;
+        top: 2px;
+        right: 2px;
+    }
+
+    div.inf img {
+        width: 27px;
+        height: 27px;
+        top: 2px;
+        right: 2px;
+    }
+
+    div.glob {
+        padding-right: 0px;
+        padding-left: 9px;
+    }
+
+    div.glob div.col-xs-3 {
+        width:19%;
+    }
+    div.glob div.col-xs-9 {
+        width:81%;
+    }
+
+    div.glob div.results div.username {
+        white-space: nowrap;
+    }
+
+    div.main.container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    div.stats, div.stat, div.stat div.col-xs-12 {
+        padding: 0px;
+    }
+
+    div.stats div.stat {
+        width: 110%;
+        margin-left: -10%;
+    }
+
+    div.test div.answers {
+        padding: 0px;
+    }
+
+    div.test div.answers img {
+        max-width: 42px;
+        max-height: 42px;
+    }
+
+    div.test div.prop img {
+        max-width: 170px;
+    }
+}
