@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack --progress --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-latest": "^6.24.0",
+    "css-loader": "^3.4.2",
+    "less": "^3.11.1",
+    "less-loader": "^3.0.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "mini-css-extract-plugin": "^0.4.5",
+    "npm": "^6.13.7",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "material-components-web": "^5.0.0"
+  }
+}
